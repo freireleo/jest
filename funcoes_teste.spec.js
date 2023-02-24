@@ -5,10 +5,10 @@ Testes para:
 */
 const {funcoes}  = require('./funcoes');
 
-test('soma de 2 numeros', () => {
+test('elevacao ao quadrado', () => {
     expect(funcoes.quad (2,3)).toBe(8);
 })
 
-test('subtração de 2 numeros', () => {
+test('raiz quadrada do numero', () => {
     expect(funcoes.raiz (81)).toBe(9);
 });
